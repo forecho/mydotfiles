@@ -73,6 +73,8 @@ plugins=(
   z
   zsh-autosuggestions
   zsh-syntax-highlighting
+	composer
+	vscode
 )
 
 source $ZSH/oh-my-zsh.sh

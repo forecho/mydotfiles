@@ -109,5 +109,10 @@ source $ZSH/oh-my-zsh.sh
 alias j="z"
 
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
+
 export PATH="$PATH:$HOME/Code/env/flutter/bin"
+export PUB_HOSTED_URL=https://pub.flutter-io.cn
+export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
+
 export PATH=$PATH:/usr/local/go/bin
+export GOPATH=$HOME/Code/go

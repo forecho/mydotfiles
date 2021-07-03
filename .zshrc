@@ -116,3 +116,11 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Code/go
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
+
+alias air='~/.air'

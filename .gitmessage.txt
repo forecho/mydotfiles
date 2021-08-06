@@ -1,0 +1,39 @@
+# 提交日志请遵照以下格式，并注意冒号有一个空间
+#
+# <type>: <subject> {必要}
+#
+# <body> {非必要}
+#
+# <footer> {非必要}
+#
+# 范例
+# feat: 实现登录api功能
+#
+# 完成登录模块并与服务器登录api集成
+#
+# Closes #10
+#
+# <Type>
+# 请遵守以下标签
+# feat: 新功能
+# fix: Bug 修复
+# docs: 文档改变
+# style: 代码格式改变
+# refactor: 功能再现
+# perf: 性能优化
+# test: 增加测试代码
+# build: 改变构建工具
+# ci: 与ci相关的设置
+# add: 增加了一些跟功能的档案
+# 3rd: 增加第三方
+#
+# <Subject>
+# 简要描述影响本次运动，概述简介
+#
+# <Body>
+# 具体的修改信息，越详细信息
+#
+# <Footer>
+# 如果是要关闭特定 Issue 或 Bug。 可以使用 Closes #10 或 Resolves #10
+# 具体清参考 https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue
+#

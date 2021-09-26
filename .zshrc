@@ -116,6 +116,7 @@ export FLUTTER_STORAGE_BASE_URL=https://storage.flutter-io.cn
 
 export PATH=$PATH:/usr/local/go/bin
 export GOPATH=$HOME/Code/go
+export PATH=$GOPATH/bin
 
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
@@ -124,3 +125,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 alias air='~/.air'
+
+export PATH=$PATH:/bin:/usr/bin

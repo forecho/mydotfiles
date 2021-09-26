@@ -127,3 +127,4 @@ export PATH="$PATH:$HOME/.rvm/bin"
 alias air='~/.air'
 
 export PATH=$PATH:/bin:/usr/bin
+export PATH=/usr/local/bin:$PATH

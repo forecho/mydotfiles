@@ -107,6 +107,7 @@ source $ZSH/oh-my-zsh.sh
 
 
 alias j="z"
+alias ppr="php artisan"
 
 export PATH="/usr/local/opt/python@3.8/bin:$PATH"
 
@@ -125,3 +126,20 @@ alias air='~/.air'
 
 export PATH=$PATH:/bin:/usr/bin
 export PATH=/usr/local/bin:$PATH
+export PATH=/usr/sbin:/sbin:$PATH
+export PATH="/usr/local/opt/lsof/bin:$PATH"
+export PATH="$PATH:$HOME/.composer/vendor/bin"
+# export PATH="/usr/local/opt/php@7.4/bin:$PATH"
+# export PATH="/usr/local/opt/php@7.4/sbin:$PATH"
+
+HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
+export PATH="/usr/local/opt/php@8.0/bin:$PATH"
+export PATH="/usr/local/opt/php@8.0/sbin:$PATH"
+
+eval $(thefuck --alias)
+# eval "$(starship init zsh)"
+
+export COMPOSE_DOCKER_CLI_BUILD=0
+export DOCKER_BUILDKIT=0

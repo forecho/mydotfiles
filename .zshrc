@@ -72,7 +72,7 @@ plugins=(
   git
   z
   zsh-autosuggestions
-  zsh-syntax-highlighting
+#  zsh-syntax-highlighting
 	composer
 	vscode
 )
@@ -124,6 +124,7 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 
 alias air='~/.air'
 
+export PATH=/opt/homebrew/bin
 export PATH=$PATH:/bin:/usr/bin
 export PATH=/usr/local/bin:$PATH
 export PATH=/usr/sbin:/sbin:$PATH
@@ -138,7 +139,7 @@ HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles"
 export PATH="/usr/local/opt/php@8.0/bin:$PATH"
 export PATH="/usr/local/opt/php@8.0/sbin:$PATH"
 
-eval $(thefuck --alias)
+# eval $(thefuck --alias)
 # eval "$(starship init zsh)"
 
 export COMPOSE_DOCKER_CLI_BUILD=0
@@ -146,4 +147,4 @@ export DOCKER_BUILDKIT=0
 
 
 # Load Angular CLI autocompletion.
-source <(ng completion script)
+# source <(ng completion script)

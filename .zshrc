@@ -143,3 +143,7 @@ eval $(thefuck --alias)
 
 export COMPOSE_DOCKER_CLI_BUILD=0
 export DOCKER_BUILDKIT=0
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)

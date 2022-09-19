@@ -72,7 +72,6 @@ plugins=(
   git
   z
   zsh-autosuggestions
-#  zsh-syntax-highlighting
 	composer
 	vscode
 )
@@ -148,3 +147,6 @@ export DOCKER_BUILDKIT=0
 
 # Load Angular CLI autocompletion.
 # source <(ng completion script)
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+export PATH="/opt/homebrew/opt/php@8.0/bin:$PATH"
+export PATH="/opt/homebrew/opt/php@8.0/sbin:$PATH"
